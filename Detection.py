@@ -15,7 +15,7 @@ def process_text(text):
 
 
 def main():
-    reader = ps.read_csv("/Users/display/PycharmProjects/Spam-Detection-mine/emails-2.csv")
+    reader = ps.read_csv("/emails.csv")
     reader.head(5)
     reader.columns
     reader.drop_duplicates(inplace=True)
